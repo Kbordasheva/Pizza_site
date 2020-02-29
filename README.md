@@ -11,5 +11,12 @@ Usage:
             os.environ['EMAIL_HOST_USER'] = 'Your_email@gmail.com'
             os.environ['EMAIL_HOST_PASSWORD'] = 'your_password'
 
-2. Run the project with command: 
+2. Create a virtual environment:
+in a project folder:
+
+        $ virtualenv venv
+        $ source venv/bin/activate
+        $ pip install -r requirements.txt
+
+3. Run the project with command: 
         ./manage.py runserver
